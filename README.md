@@ -6,3 +6,12 @@ I need a VS Code project with all the basic files! but how do I then commit it t
 the other way but when I commited, it didn't show up on github.com! WTF!!!??
 
 Solved it - found the command npx create-react-native-app <app-name>
+
+Ran following lines:
+
+npm install ruby latest
+npx expo install react-native-web react-dom @expo/metro-runtime
+npm install
+npm audit fix --force
+
+Above line run multiple times to get "5 moderate severity vulnerabilities" if run over and over it cycles with 3 versions of expo
